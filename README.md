@@ -1,4 +1,4 @@
-# 🎮 FitGirl Downloader
+# 🎮 Alyan's FitGirl Downloader
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows)
@@ -24,7 +24,7 @@ Say goodbye to manually clicking through dozens of links! This tool fetches `fuc
 You **do not** need Python installed to run this program! 
 
 1. Go to the [Releases page](../../releases) on this repository.
-2. Under the latest release, download the `fitgirl_downloader.exe` file from the **Assets** section.
+2. Under the latest release, download the `alyans_fitgirl_downloader.exe` file from the **Assets** section.
 3. Double-click the `.exe` file to run it. 
 
 *(Note: Windows SmartScreen might show a warning since the `.exe` isn't digitally signed by a publisher. Click "More info" -> "Run anyway").*
@@ -75,4 +75,13 @@ The generated `.exe` will be located in the `dist` folder.
 
 ## ⚠️ Disclaimer
 
-This tool is for educational purposes and personal use to automate the downloading process. Ensure you comply with your local laws and regulations regarding file sharing and downloading. The author is not responsible for any misuse of this software.
+This project is intended strictly for educational and research purposes only. It was developed to demonstrate and practice concepts related to scripting, automation, and web data extraction.
+
+I do **not** promote, support, or encourage piracy or the unauthorized distribution of copyrighted content in any form. This tool does not host, distribute, or provide any copyrighted material.
+
+Users are solely responsible for how they choose to use this software. Any misuse of this project, including but not limited to downloading or distributing copyrighted content without proper authorization, is entirely at the user's own risk.
+
+The developer assumes **no responsibility or liability** for any misuse of this project or for any legal consequences that may arise from its use.
+
+By using this project, you agree to comply with all applicable laws and regulations in your jurisdiction.
+
