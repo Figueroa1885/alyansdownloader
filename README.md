@@ -44,35 +44,6 @@ You **do not** need Python installed to run this program!
 
 ---
 
-## 💻 For Developers (Run from source)
-
-If you want to run the script or build it yourself:
-
-1. Clone this repository:
-   ```cmd
-   git clone https://github.com/Mohd-Alyan/alyansdownloader.git
-   cd FitGirl-Downloader
-   ```
-2. Install the required dependencies:
-   ```cmd
-   pip install -r requirements.txt
-   ```
-   *(Dependencies include `requests` and `rich`)*
-3. Run the script:
-   ```cmd
-   python fitgirl_downloader.py
-   ```
-
-### 🔨 Building the `.exe` yourself
-To compile the script into a standalone Windows executable:
-```cmd
-pip install pyinstaller
-python -m PyInstaller --onefile fitgirl_downloader.py
-```
-The generated `.exe` will be located in the `dist` folder.
-
----
-
 ## ⚠️ Disclaimer
 
 This project is intended strictly for educational and research purposes only. It was developed to demonstrate and practice concepts related to scripting, automation, and web data extraction.
