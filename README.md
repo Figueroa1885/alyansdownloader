@@ -50,7 +50,7 @@ If you want to run the script or build it yourself:
 
 1. Clone this repository:
    ```cmd
-   git clone https://github.com/YourUsername/FitGirl-Downloader.git
+   git clone https://github.com/Mohd-Alyan/alyansdownloader.git
    cd FitGirl-Downloader
    ```
 2. Install the required dependencies:
